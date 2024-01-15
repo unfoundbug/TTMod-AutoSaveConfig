@@ -1,0 +1,7 @@
+{
+    "name": "AutoSaveConfig",
+    "version_number": "0.0.4",
+    "website_url": "https://github.com/unfoundbug",
+    "description": "Allows the player to configure the autosave timeout.",
+    "dependencies": [ "BepInEx-BepInExPack-5.4.2100" ]
+}

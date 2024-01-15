@@ -24,7 +24,7 @@ namespace AutoSaveConfig
     {
         public const string pluginGuid = "autosaveconfig.nhickling.co.uk";
         public const string pluginName = "AutoSaveConfig";
-        public const string pluginVersion = "0.0.0.1";
+        public const string pluginVersion = "0.0.0.5";
 
         public const string Config_TimeoutSection = "Config";
         public const string Config_TimeoutKey = "Timeout";
@@ -32,7 +32,6 @@ namespace AutoSaveConfig
         public static ConfigEntry<int> AutoSaveTimeout;
 
         private static ManualLogSource modLogger;
-        InserterDefinition
         public void Awake()
         {
             modLogger = Logger;
@@ -71,7 +70,7 @@ namespace AutoSaveConfig
 
                 return false;
             }
-            catch(Exception e)
+            catch(Exception)
             {
             }
 

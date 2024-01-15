@@ -25,12 +25,16 @@ Your game folder is likely in one of these places:
 ## compatibility
 | Mod Version | Game Version |
 | --- | --- |
+| 0.0.5 | 0.2.0h |
 | 0.0.4 | 0.1.2a |
 | 0.0.3 | Unreliable, do not use |
 | 0.0.2 | Unreliable, do not use |
 | 0.0.1 | Unreliable, do not use |
 
 ## Changelog
+
+### 0.0.5
+Move source to github and setup links. No gameplay changes.
 
 ### 0.0.4
 Patch the auto save to allow configuration reliably.

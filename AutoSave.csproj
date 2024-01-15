@@ -82,7 +82,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetPath) "C:\Users\Chrys\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Techtonica\profiles\Researchless\BepInEx\plugins\$(TargetFileName)"
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)\Packaged\$(TargetFileName)
+copy $(TargetPath) "%25UserProfile%25\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Techtonica\profiles\Researchless\BepInEx\plugins\$(TargetFileName)"
 </PostBuildEvent>
   </PropertyGroup>
 </Project>
